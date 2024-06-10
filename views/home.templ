@@ -74,7 +74,14 @@ templ FAB() {
 	</button>
 	<dialog id="add_habit_form" class="modal modal-bottom sm:modal-middle">
 		<div class="modal-box">
-			<h3 class="font-bold text-lg">Create New Habit</h3>
+		<header class="flex">
+			<h3 class="font-bold text-lg flex-1">Create New Habit</h3>
+			<form method="dialog">
+				<button class="btn btn-ghost btn-xs">
+					<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" /></svg>
+				</button>
+			</form>
+		</header>
 			<form method="dialog" class="mt-4 space-y-4">
 				<label class="form-control w-full max-w-xs">
 					<div class="label">
